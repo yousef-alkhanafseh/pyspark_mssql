@@ -3,6 +3,7 @@ This repository accompanies the Medium article titled "How to Read and Write fro
 For more details, please refer to: https://medium.com/turknettech/how-to-read-and-write-from-mssql-using-pyspark-in-python-1207c07af864
 
 # Repository Structure
+```
 .
 ├── src
 │   ├── mssql_with_partitions.py
@@ -11,7 +12,7 @@ For more details, please refer to: https://medium.com/turknettech/how-to-read-an
     └── mssql-jdbc-7.0.0.jre8.jar
     └── mysql-connector-java-5.1.49.jar
     └── spark-mssql-connector_2.12-1.2.0.jar
-
+```
 **src Folder**
 This folder contains the Python scripts that illustrate the read and write operations using PySpark and MSSQL:
 
