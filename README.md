@@ -13,14 +13,16 @@ For more details, please refer to: https://medium.com/turknettech/how-to-read-an
     └── mysql-connector-java-5.1.49.jar
     └── spark-mssql-connector_2.12-1.2.0.jar
 ```
-**src Folder**
+**1. src Folder**
+
 This folder contains the Python scripts that illustrate the read and write operations using PySpark and MSSQL:
 
-mssql_with_partitions.py: This script demonstrates how to read from and write to an MSSQL database using the partitioning technique in PySpark. Partitioning can significantly enhance the performance of read and write operations by dividing the data into smaller, more manageable chunks.
+* mssql_with_partitions.py: This script demonstrates how to read from and write to an MSSQL database using the partitioning technique in PySpark. Partitioning can significantly enhance the performance of read and write operations by dividing the data into smaller, more manageable chunks.
 
-mssql_without_partitions.py: This script shows the read and write operations without using partitioning. This approach is simpler but might be less efficient for handling large datasets.
+* mssql_without_partitions.py: This script shows the read and write operations without using partitioning. This approach is simpler but might be less efficient for handling large datasets.
 
-**jars Folder**
+**2. jars Folder**
+
 The jars folder contains the necessary JAR files required to enable PySpark connections to MSSQL databases.
 
 # License
